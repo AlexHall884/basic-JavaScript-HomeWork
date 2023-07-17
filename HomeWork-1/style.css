@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.home_work {
+    padding-top: 75px;
+    padding-left: 55px;
+    padding-right: 55px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
