@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    margin-top: 80px;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.wrapper__box {
+    display: flex;
+    gap: 25px;
+    padding: 50px;
+}
+
+.box {
+    width: 35vw;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    border-radius: 10%;
+    border: 1px solid royalblue;
+    padding: 1rem 2rem;
+    background-color: rgb(178, 235, 235);
+}
+
+.box:hover {
+    scale: 1.1;
+
+}
+
+.heading {
+    text-align: center;
+}
